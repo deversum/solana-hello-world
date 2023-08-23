@@ -13,3 +13,12 @@ $ cargo test
 $ cargo build-bpf
 $ cargo test-bpf
 ```
+
+### Despliega el programa en devnet
+```
+solana program deploy <DIRECTORIO_PROGRAMA>
+```
+Si el programa se desplegó exitosamente, se devolverá un identificador de programa, como por ejemplo:
+```
+Program Id: 3KS2k14CmtnuVv2fvYcvdrNgC94Y11WETBpMUGgXyWZL
+```
