@@ -17,8 +17,8 @@ export default function Home() {
       59,22,14,240,93,140,49,62])
   )
 
-  console.log(payer.secretKey.toString());
-  console.log("Solana Wallet Pubkey Payer:",payer.publicKey.toString())
+  //console.log(payer.secretKey.toString());
+  //console.log("Solana Wallet Pubkey Payer:",payer.publicKey.toString())
 
   const [buttonText, setButtonText] = useState('Airdrop')
   const [buttonText2, setButtonText2] = useState('Send Transaction')
