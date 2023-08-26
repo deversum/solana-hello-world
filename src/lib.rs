@@ -1,8 +1,15 @@
 use solana_program::{
-    account_info::AccountInfo, entrypoint, entrypoint::ProgramResult, msg, pubkey::Pubkey,
+    account_info::AccountInfo,
+    entrypoint,
+    entrypoint::ProgramResult, msg,
+    pubkey::Pubkey,
+    declare_id,
 };
 
+declare_id!("C3RYbeATwaujS9qbmAE75etgvGeZYPTRJncpejkDcBUw");
+
 entrypoint!(process_instruction);
+
 fn process_instruction(
     program_id: &Pubkey,
     accounts: &[AccountInfo],
