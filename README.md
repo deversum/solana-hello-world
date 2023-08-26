@@ -1,11 +1,11 @@
 ### Configurar el entorno
 
-1. Instala Rust (ref.: https://rustup.rs/). En Linux, para instalar Rust:
+Instala Rust (ref.: https://rustup.rs/). En Linux, para instalar Rust:
 ```
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
 
-2. Instala Solana (ref.: https://docs.solana.com/cli/install-solana-cli-tools#use-solanas-install-tool). En Linux para instalar el CLI de Solana, que viene con el `test validator`
+Instala Solana (ref.: https://docs.solana.com/cli/install-solana-cli-tools#use-solanas-install-tool). En Linux para instalar el CLI de Solana, que viene con el `test validator`
 ```
 $ sh -c "$(curl -sSfL https://release.solana.com/stable/install)"
 ```
