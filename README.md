@@ -1,4 +1,4 @@
-### Configurar el entorno
+## Configurar el entorno
 
 Instala Rust (ref.: https://rustup.rs/). En Linux, para instalar Rust:
 ```
@@ -19,23 +19,25 @@ Para obtener configuracion de tu configuracion de sonala
 solana config get
 ```
 
+## Desarrollo
 
-### Construye y prueba para un programa compilado nativamente
+Para construir y probar un programa compilado nativamente
 ```
 $ cargo build
 $ cargo test
 ```
 
-### Construye y pueba el programa compilaod para BPF
+Para construir y probar un programa compilado para BPF
 ```
 $ cargo build-bpf
 $ cargo test-bpf
 ```
 
-### Despliega el programa en devnet
+Para desplegar el programa en devnet
 ```
 solana program deploy <DIRECTORIO_PROGRAMA>
 ```
+
 Si el programa se desplegó exitosamente, se devolverá un identificador de programa, como por ejemplo:
 ```
 Program Id: 3KS2k14CmtnuVv2fvYcvdrNgC94Y11WETBpMUGgXyWZL
