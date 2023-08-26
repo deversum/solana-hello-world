@@ -1,4 +1,4 @@
-## Configurar el entorno
+# Configurar el entorno
 
 Instala Rust (ref.: https://rustup.rs/). En Linux, para instalar Rust:
 ```
@@ -19,7 +19,7 @@ Para obtener configuracion de tu configuracion de sonala
 solana config get
 ```
 
-## Desarrollo
+# Desarrollo
 
 Para construir y probar un programa compilado nativamente
 ```
@@ -42,3 +42,6 @@ Si el programa se desplegó exitosamente, se devolverá un identificador de prog
 ```
 Program Id: 3KS2k14CmtnuVv2fvYcvdrNgC94Y11WETBpMUGgXyWZL
 ```
+
+
+# Cliente JS
